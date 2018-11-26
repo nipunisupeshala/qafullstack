@@ -11,6 +11,7 @@ resource "aws_instance" "nipunisweb" {
   vpc_security_group_ids = ["sg-04c7ac1c35820a26c"]
   user_data = "${file("install.sh")}"
 
+#####
 ######
  tags {
  Name = "nipunisweb"
