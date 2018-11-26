@@ -13,7 +13,7 @@ resource "aws_instance" "nipunisweb" {
 
 ####
 #####
-######
+#########
  tags {
  Name = "nipunisweb"
 }
